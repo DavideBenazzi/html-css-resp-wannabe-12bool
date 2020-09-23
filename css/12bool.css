@@ -232,6 +232,12 @@
   .offset-md-12 {
     margin-left: 100%;
   }
+
+  /* RESET OFFSET */
+
+  .offset-md-0 {
+    margin-left: 0;
+  }
 }
 
 /* RESPONSIVE DESKTOP LABEL (lg)*/
@@ -333,5 +339,11 @@
 
   .offset-lg-12 {
     margin-left: 100%;
+  }
+
+  /* RESET OFFSET */
+
+  .offset-lg-0 {
+    margin-left: 0;
   }
 }
