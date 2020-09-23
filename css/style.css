@@ -1,6 +1,15 @@
+body {
+  text-align: center;
+}
+
+img {
+  max-height: 200px;
+  max-width: 100%;
+}
+
 .box {
-  height: 200px;
   padding: 10px;
   margin: 10px 0;
-  background: dodgerblue;
+  /* BORDO PER DEBUG */
+  border: 1px solid black;
 }
