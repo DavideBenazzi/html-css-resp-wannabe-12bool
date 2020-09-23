@@ -16,6 +16,21 @@
   clear: both;
 }
 
+/* FLOAT */
+
+[class*="col-"] {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* PADDING 0 PER COLONNE ANNIDATE */
+
+[class*="col-"].padding-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 /* UTILITY GRIGLIA */
 /* RESPONSIVE MOBILE FIRST */
 
@@ -65,19 +80,6 @@
 
 .col-sx-12 {
   width: 100%;
-}
-
-[class*="col-"] {
-  float: left;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-/* PADDING 0 PER COLONNE ANNIDATE */
-
-[class*="col-"].padding-0 {
-  padding-left: 0;
-  padding-right: 0;
 }
 
 /* UTILITY OFFSET */
